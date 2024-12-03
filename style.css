@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar h1 {
+    display: inline-block;
+    margin: 0;
+}
+.navbar nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background:url(https://imgs.search.brave.com/b-ySA6jsNX1j4JQEBIUqtUnYzPqPZd05MPZjbuV2jsY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgy/NDg3OTk2L3Bob3Rv/L3dvbWFuLWhhbmQt/aG9sZGluZy1hLXBl/cmZ1bWUtYm90dGxl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1yOFhxVlJWOC1Z/aEFEb2NMQWwyU0hq/cmNCUmpCd3Jick5F/YzlibGFxM3prPQ) no-repeat center center/cover;
+    color: white;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.product-card img {
+    width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
